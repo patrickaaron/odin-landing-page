@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+p {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 20px 100px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f66363;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: white;
+  display: flex;
+  gap: 36px;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.hero-banner {
+  font-size: 18px;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: #F9FAF8;
+  padding: 100px 0;
+}
+
+.hero-info {
+  width: 450px;
+  padding: 25px;
+}
+.hero-text {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+button {
+  margin-top: 10px;
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+.playlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playlist > p {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin: 10px 0;
+}
+.card-container {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  width: 250px;
+}
