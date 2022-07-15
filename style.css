@@ -8,10 +8,10 @@ p {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #1F2937;
-  padding: 20px 100px;
+  padding: 20px 80px;
 }
 
 .logo {
@@ -32,8 +32,10 @@ a {
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
+  margin-right: 40px;
   
 }
+
 .hero-banner {
   font-size: 18px;
   background-color: #1F2937;
@@ -48,11 +50,13 @@ a {
   width: 450px;
   padding: 25px;
 }
+
 .hero-text {
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 10px;
 }
+
 .hero-info button {
   margin-top: 10px;
   background-color: #3882F6;
@@ -66,8 +70,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 80px;
 }
 
 .playlist > p {
@@ -76,6 +80,7 @@ a {
   color: #1F2937;
   margin-bottom: 20px;
 }
+
 .card-container {
   display: flex;
   gap: 30px;
@@ -90,6 +95,7 @@ a {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
 }
+
 .quote-container {
   background-color: #E5E7EB;
   display: flex;
@@ -97,6 +103,7 @@ a {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
 .quote {
   display: flex;
   flex-direction: column;
