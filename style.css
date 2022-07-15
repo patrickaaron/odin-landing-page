@@ -26,10 +26,14 @@ p {
   color: white;
   display: flex;
   gap: 36px;
-  color: #E5E7EB;
-  font-size: 18px;
 }
 
+a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+  
+}
 .hero-banner {
   font-size: 18px;
   background-color: #1F2937;
@@ -49,7 +53,7 @@ p {
   font-weight: 900;
   margin-bottom: 10px;
 }
-button {
+.hero-info button {
   margin-top: 10px;
   background-color: #3882F6;
   color: white;
@@ -62,13 +66,15 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 .playlist > p {
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
-  margin: 10px 0;
+  margin-bottom: 20px;
 }
 .card-container {
   display: flex;
@@ -77,4 +83,82 @@ button {
 
 .card {
   width: 250px;
+}
+
+.card img {
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+}
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+}
+
+.quote > p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  color: #1F2937;
+  margin-bottom: 20px;
+}
+
+.quote-author {
+  align-self: flex-end;
+  padding-right: 20px;
+  font-weight: 700;
+}
+
+.action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.action-info {
+  color: white;
+  background-color: #3882F6;
+  box-sizing: border-box;
+  padding: 40px 60px;
+  width: 1000px;
+  color: #E5E7EB;
+  border-radius: 5px;
+}
+
+.action-info > p {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.action-info div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-info button {
+  background-color: #3882F6;
+  color: white;
+  border: 1px solid;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+.footer {
+  color: #E5E7EB;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
 }
